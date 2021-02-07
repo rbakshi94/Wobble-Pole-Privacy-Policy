@@ -1,9 +1,13 @@
+@font-face {
+  src: url("fonts/GloriaHallelujah-Regular.ttf");
+  font-family: handwriting;
+}
+
 #mainContent {
   background-color: white;
   color: rgb(84, 84, 87);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-
+  font-size: 18px;
   line-height: 1.5em;
   width: 50%;
   margin: auto;
@@ -18,21 +22,22 @@ body {
 #titles {
   text-align: left;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 21px;
   margin-top: 40px;
   margin-bottom: 0px;
 }
 
 #mainTitle {
-  color: rgb(84, 84, 87);
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(248, 228, 138);
+  font-family: "gloriaHallelujah";
   text-align: center;
-  font-size: 30px;
+  font-size: 39px;
+  font-family: handwriting;
   padding: 13px 10px;
-  background-color: rgb(255, 249, 216);
+  background-color: rgb(228, 121, 21);
   overflow: hidden;
   line-height: 1.5em;
-
+  letter-spacing: 1px;
   width: 100%;
   margin: 0px;
 }
@@ -68,7 +73,7 @@ body {
 #overview {
   text-align: left;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 21px;
   margin-top: 10px;
   margin-bottom: 0px;
 }
